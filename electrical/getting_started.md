@@ -5,7 +5,8 @@ Before you get started assembling the PhoneBot board, you will need to have one 
 1. Ordering the PCBs
 2. Ordering the components
 3. Assembly
-4. Testing
+4. Firmware Flashing
+5. Testing
 
 ## Ordering PCBs
 
@@ -26,3 +27,19 @@ For each of the boards, open the schematic in KiCAD and export the BOM. There ar
 ## Assembly
 
 The PhoneBot main PCB is mostly surface-mount soldered, and thus requires either a rework station or reflow oven. There are many good tutorials on how to surface mount solder.
+
+The servos must be soldered to their respective servo boards, with their cables shortened considerably.
+
+## Firmware Flashing
+
+Now that your board is assembled, it's time to flash the firmware. It is advised that you first check major power planes for shorts by performing a continuity check on rails such as 5V to GND, 3V3 to GND, etc. Assuming that there is no short between any of those, plugging in a battery and flipping the power switch should start the board power LEDs.
+
+Once the board is confirmed to have power, it's time to flash the firmware!
+
+Follow [this guide](firmware_setup.md) to flash the firmware and test leg control.
+
+## Other Documentation
+
+The PhoneBot App and firmware communicate via a standardized header-body-footer protocol which is documented [here](ble_command_reference.md).
+
+Instructions for making a new board release of a PhoneBot board are located [here](electrical_release_guide.md).

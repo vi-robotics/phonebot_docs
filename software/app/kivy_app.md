@@ -1,6 +1,6 @@
 # Kivy App Getting Started
 
-When in doubt, navigate to `PhoneBot/App/KivyApp` and refer to the README.
+When in doubt, navigate to the [Kivy App](https://github.com/vi-robotics/phonebot_kivy) and refer to the README.
 
 The current instructions are as follows:
 

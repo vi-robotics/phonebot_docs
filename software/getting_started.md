@@ -15,4 +15,9 @@ In order to get PhoneBot running the minimal that needs to be done is building a
 
 ## Desktop Getting Started
 
-TODO
+The various desktop applications for PhoneBot have their own getting started guides.
+
+- [pyphonebot](pyphonebot.md)
+- [simulation](simulation.md)
+
+The PhoneBot style guide is located [here](style_guide.md). Some troubleshooting help is located [here](troubleshooting.md).
